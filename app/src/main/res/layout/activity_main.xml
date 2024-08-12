@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="@drawable/img">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/profile_image"
+        android:src="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_rounded"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPalindrome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Palindrome"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_rounded"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#2B637B"
+        android:text="CHECK"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="#2B637B"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>
+
